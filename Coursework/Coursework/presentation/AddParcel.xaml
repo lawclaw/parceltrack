@@ -1,0 +1,31 @@
+﻿<Window x:Class="Coursework.AddParcel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Coursework"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="Add Parcel" Height="450" Width="800">
+    <Grid Background="#FF2F3542">
+        <Label Content="Delivery ID" HorizontalAlignment="Left" Margin="21,89,0,0" VerticalAlignment="Top" Height="36" Width="120" FontSize="20" Foreground="#FFDFE4EA" FontFamily="Segoe UI Semibold"/>
+        <Label Content="Add Parcel" HorizontalAlignment="Left" Margin="590,10,0,0" VerticalAlignment="Top" FontSize="36" Foreground="#FFDFE4EA" FontFamily="Segoe UI Semibold"/>
+        <Button x:Name="btnAdd" Content="Add parcel" HorizontalAlignment="Left" Margin="14,329,0,0" VerticalAlignment="Top" Height="50" Width="174" Click="btnAdd_Click" FontSize="16" FontFamily="Segoe UI Semibold" Foreground="#FF2F3542" BorderBrush="{x:Null}" Background="#FFDFE4EA"/>
+        <Label Content="Addressee line" HorizontalAlignment="Left" Margin="21,180,0,0" VerticalAlignment="Top" Height="34" Width="142" FontSize="20" Foreground="#FFDFE4EA" FontFamily="Segoe UI Semibold"/>
+        <ListView x:Name="lstCouriers" Margin="276,89,276,67" IsEnabled="False" SelectionChanged="lstCouriers_SelectionChanged" SelectionMode="Single" Background="#FFDFE4EA">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Type" DisplayMemberBinding="{Binding Type}"/>
+                    <GridViewColumn Header="Capacity" DisplayMemberBinding="{Binding Capacity}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label x:Name="lblCouriers" Content="Couriers" HorizontalAlignment="Left" Margin="276,41,0,0" VerticalAlignment="Top" Height="36" Width="100" FontSize="22" IsEnabled="False" Foreground="#FFDFE4EA" FontFamily="Segoe UI Semibold"/>
+        <Button x:Name="btnConfirm" Content="Confirm courier" HorizontalAlignment="Left" Margin="602,334,0,0" VerticalAlignment="Top" Height="50" Width="175" IsEnabled="False" Click="btnConfirm_Click" Foreground="#FF2F3542" FontFamily="Segoe UI Semibold" FontSize="16" BorderBrush="{x:Null}" Background="#FFDFE4EA"/>
+        <TextBox x:Name="txtDeliveryId" MaxHeight="18" HorizontalAlignment="Left" Margin="21,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.032,0.728" LostFocus="txtPostcode_LostFocus"/>
+        <TextBox x:Name="txtAddressee" MaxHeight="18" HorizontalAlignment="Left" Margin="21,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.101,0.511"/>
+        <Label Content="Area" HorizontalAlignment="Left" Margin="21,23,0,0" VerticalAlignment="Top" Height="36" Width="100" FontSize="20" Foreground="#FFDFE4EA" FontFamily="Segoe UI Semibold"/>
+        <TextBox x:Name="txtArea" MaxHeight="18" HorizontalAlignment="Left" Margin="21,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.032,0.728" LostFocus="txtPostcode_LostFocus"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="Coursework.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Coursework"
+        ResizeMode="NoResize"
+        mc:Ignorable="d"
+        Title="ParcelTrack" Height="450" Width="800">
+    <Grid Background="#FF2F3542">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="779*"/>
+            <ColumnDefinition Width="21*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="ParcelTrack" HorizontalAlignment="Left" Margin="500,15,0,0" VerticalAlignment="Top" FontSize="48" Foreground="#FFDFE4EA" FontFamily="Bahnschrift" FontWeight="Normal" FontStyle="Normal" />
+        <Button x:Name="btnAddCourier" Content="Add new courier" HorizontalAlignment="Left" Margin="26,62,0,0" VerticalAlignment="Top" Height="60" Width="160" Click="btnAddCourier_Click" BorderBrush="Transparent" Background="#FFDFE4EA" Foreground="#FF2F3542" FontSize="20" FontFamily="Segoe UI Semibold"/>
+        <Button x:Name="btnAddParcel" Content="Add new parcel" HorizontalAlignment="Left" Margin="211,63,0,0" VerticalAlignment="Top" Height="60" Width="160" Click="btnAddParcel_Click" BorderBrush="Transparent" Background="#FFDFE4EA" Foreground="#FF2F3542" FontFamily="Segoe UI Semibold" FontSize="20"/>
+        <Button x:Name="btnShow" Content="Check status" HorizontalAlignment="Left" Margin="513,311,0,0" VerticalAlignment="Top" Height="76" Width="243" Click="btnShow_Click" BorderBrush="{x:Null}" Background="#FFDFE4EA" FontFamily="Segoe UI Semibold" FontSize="36" Foreground="#FF2F3542" FontWeight="Normal" FontStyle="Normal"/>
+        <Button x:Name="btnDeliveryList" Content="Delivery lists" HorizontalAlignment="Left" Margin="596,228,0,0" VerticalAlignment="Top" Height="60" Width="160" Click="btnDeliveryList_Click" BorderBrush="Transparent" Background="#FFDFE4EA" Foreground="#FF2F3542" FontFamily="Segoe UI Semibold" FontSize="20"/>
+        <Button x:Name="btnTransfer" Content="Transfer parcel" HorizontalAlignment="Left" Margin="26,158,0,0" VerticalAlignment="Top" Height="60" Width="160" Click="btnTransfer_Click" BorderBrush="Transparent" Background="#FFDFE4EA" Foreground="#FF2F3542" FontSize="20" FontFamily="Segoe UI Semibold"/>
+        <Button x:Name="btnSave" Content="Save to CSV" HorizontalAlignment="Left" Margin="211,327,0,0" VerticalAlignment="Top" Click="btnSave_Click" Height="60" Width="160" BorderBrush="Transparent" Background="#FFDFE4EA" Foreground="#FF2F3542" FontFamily="Segoe UI Semibold" FontSize="16"/>
+        <Button x:Name="btnLoad" Content="Load from CSV" HorizontalAlignment="Left" Margin="26,327,0,0" VerticalAlignment="Top" Click="btnLoad_Click" Height="60" Width="160" BorderBrush="Transparent" Background="#FFDFE4EA" Foreground="#FF2F3542" FontSize="16" FontFamily="Segoe UI Semibold"/>
+
+    </Grid>
+</Window>

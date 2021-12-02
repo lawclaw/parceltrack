@@ -1,0 +1,2 @@
+2021-11-29 14:12:00: Added courier - type: Walking
+2021-11-29 14:12:18: Exception: Courier d76920e2-d180-467a-8eca-e4822953ca2b has no parcels to deliver

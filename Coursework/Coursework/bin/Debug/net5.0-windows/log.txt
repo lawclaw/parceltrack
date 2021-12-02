@@ -1,0 +1,34 @@
+2021-11-23 12:59:56: Added courier - type: Walking
+2021-11-23 13:00:00: Added courier - type: Walking
+2021-11-23 13:00:03: Added courier - type: Walking
+2021-11-23 13:00:05: Added courier - type: Walking
+2021-11-23 13:00:39: Added new parcel: EH1 3IL, Mom's house, assigned to courier: cd953567-b46f-440e-9827-3e26e98723c8
+2021-11-23 13:00:50: Added new parcel: EH2 4IL, Dad's house, assigned to courier: ba0b4b7d-4daa-4a18-8fff-2fa59e341a4c
+2021-11-23 13:01:02: Added new parcel: EH3 4IL, Dad's house, assigned to courier: 2bc95658-a179-4eaf-b883-74d96ac6fc59
+2021-11-23 13:02:15: Added new parcel: EH4 3DL, Brother's home, assigned to courier: 0a6fa57f-bd68-43f6-a4c1-e6716c85b468
+2021-11-23 13:05:28: Added new parcel: EH4 4LY, Kid's house, assigned to courier: 0a6fa57f-bd68-43f6-a4c1-e6716c85b468
+2021-11-23 13:06:07: Added new parcel: EH1 3FL, Tyler house, assigned to courier: cd953567-b46f-440e-9827-3e26e98723c8
+2021-11-23 13:06:36: Added new parcel: EH1 4DL, Edin House, assigned to courier: cd953567-b46f-440e-9827-3e26e98723c8
+2021-11-23 13:07:44: Generated delivery list for courier cd953567-b46f-440e-9827-3e26e98723c8
+2021-11-23 13:08:23: Added courier - type: Walking
+2021-11-23 13:54:30: Added courier - type: Cycle
+2021-11-23 14:04:53: Added courier - type: Van
+2021-11-23 14:14:13: Generated delivery list for courier: 0a6fa57f-bd68-43f6-a4c1-e6716c85b468
+2021-11-23 14:14:29: Generated delivery list for courier: 2bc95658-a179-4eaf-b883-74d96ac6fc59
+2021-11-23 14:19:05: Generated delivery list for courier: 2bc95658-a179-4eaf-b883-74d96ac6fc59
+2021-11-23 14:19:21: Exception: FullCourier - Failed transfer of parcel:e2e40f77-a9eb-4146-956a-fda6c2164483 from courier:cd953567-b46f-440e-9827-3e26e98723c8 to courier:f934da4c-b5ec-4f06-aa09-b06c1c7d5c59
+2021-11-23 14:20:13: Exception: FullCourier - Failed transfer of parcel:e2e40f77-a9eb-4146-956a-fda6c2164483 from courier:cd953567-b46f-440e-9827-3e26e98723c8 to courier:f934da4c-b5ec-4f06-aa09-b06c1c7d5c59
+2021-11-23 14:20:19: Exception: FullCourier - Failed transfer of parcel:6d15dbf8-60cd-492c-8a85-8f1c8c2a2d85 from courier:cd953567-b46f-440e-9827-3e26e98723c8 to courier:f934da4c-b5ec-4f06-aa09-b06c1c7d5c59
+2021-11-23 14:20:26: Exception: FullCourier - Failed transfer of parcel:0b3e3d03-8223-4d54-8e1a-7763bd225b34 from courier:cd953567-b46f-440e-9827-3e26e98723c8 to courier:f934da4c-b5ec-4f06-aa09-b06c1c7d5c59
+2021-11-23 14:23:15: Generated delivery list for courier: ba0b4b7d-4daa-4a18-8fff-2fa59e341a4c
+2021-11-23 14:31:22: Added new parcel: EH4 2DY, Edith Swan, Fallington Street 5, assigned to courier: 0a6fa57f-bd68-43f6-a4c1-e6716c85b468
+2021-11-23 14:31:34: Generated delivery list for courier: 0a6fa57f-bd68-43f6-a4c1-e6716c85b468
+2021-11-23 14:48:34: Generated delivery list for courier: f934da4c-b5ec-4f06-aa09-b06c1c7d5c59
+2021-11-23 14:48:39: Generated delivery list for courier: 0a6fa57f-bd68-43f6-a4c1-e6716c85b468
+2021-11-23 14:57:17: Added courier - type: Van
+2021-11-23 15:02:36: Added courier - type: Van
+2021-11-23 21:03:10: Generated delivery list for courier: f934da4c-b5ec-4f06-aa09-b06c1c7d5c59
+2021-11-25 17:03:52: Added new parcel: EH2 8DY, 21 Bread, William Williamson, assigned to courier: e518e663-75b6-489c-8f99-764513d2a820
+2021-11-25 17:40:27: Generated delivery list for courier: e518e663-75b6-489c-8f99-764513d2a820
+2021-11-25 17:40:51: Added new parcel: EH1 7DY, Hello,Comma, assigned to courier: f934da4c-b5ec-4f06-aa09-b06c1c7d5c59
+2021-11-25 17:41:15: Generated delivery list for courier: f934da4c-b5ec-4f06-aa09-b06c1c7d5c59
